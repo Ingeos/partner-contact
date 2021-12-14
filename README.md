@@ -20,8 +20,9 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [animal](animal/) | 14.0.1.0.1 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Manage animals information
+[animal_owner](animal_owner/) | 14.0.1.0.0 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Add owner to the animal
 [base_country_state_translatable](base_country_state_translatable/) | 14.0.1.0.0 |  | Translate Country States
-[base_location](base_location/) | 14.0.1.2.2 |  | Enhanced zip/npa management system
+[base_location](base_location/) | 14.0.1.2.3 |  | Enhanced zip/npa management system
 [base_location_geonames_import](base_location_geonames_import/) | 14.0.1.0.1 |  | Import zip entries from Geonames
 [base_location_nuts](base_location_nuts/) | 14.0.1.0.1 |  | NUTS Regions
 [base_partner_sequence](base_partner_sequence/) | 14.0.1.0.1 |  | Sets customer's code from a sequence
@@ -53,6 +54,8 @@ addon | version | maintainers | summary
 [partner_firstname](partner_firstname/) | 14.0.1.0.1 |  | Split first name and last name for non company partners
 [partner_helper](partner_helper/) | 14.0.1.0.0 |  | Add specific helper methods
 [partner_identification](partner_identification/) | 14.0.1.3.0 |  | Partner Identification Numbers
+[partner_identification_gln](partner_identification_gln/) | 14.0.1.0.0 |  | This addon extends "Partner Identification Numbers" to provide a number category for GLN registration
+[partner_identification_notification](partner_identification_notification/) | 14.0.1.0.0 |  | Partner Identification Notification
 [partner_identification_unique_by_category](partner_identification_unique_by_category/) | 14.0.1.0.1 |  | Partner Identification Numbers Unique By Category
 [partner_industry_secondary](partner_industry_secondary/) | 14.0.1.0.0 |  | Add secondary partner industries
 [partner_iterative_archive](partner_iterative_archive/) | 14.0.1.0.1 |  | Archive all contacts when parent is archived
@@ -61,6 +64,7 @@ addon | version | maintainers | summary
 [partner_multi_relation](partner_multi_relation/) | 14.0.1.1.0 |  | Partner Relations
 [partner_phone_extension](partner_phone_extension/) | 14.0.1.0.1 |  | Partner Phone Number Extension
 [partner_phone_secondary](partner_phone_secondary/) | 14.0.1.0.0 | [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) | Adds a secondary phone number on partners
+[partner_phonecall_schedule](partner_phonecall_schedule/) | 14.0.1.0.0 |  | Track the time and days your partners expect phone calls
 [partner_pricelist_search](partner_pricelist_search/) | 14.0.1.0.0 |  | Partner pricelist search
 [partner_priority](partner_priority/) | 14.0.1.0.0 | [![patrickrwilson](https://github.com/patrickrwilson.png?size=30px)](https://github.com/patrickrwilson) | Adds priority to partners.
 [partner_ref_unique](partner_ref_unique/) | 14.0.1.0.0 |  | Add an unique constraint to partner ref field
