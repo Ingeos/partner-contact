@@ -19,11 +19,11 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[animal](animal/) | 14.0.1.0.1 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Manage animals information
-[animal_owner](animal_owner/) | 14.0.1.0.0 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Add owner to the animal
+[animal](animal/) | 14.0.1.1.0 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Manage animals information
+[animal_owner](animal_owner/) | 14.0.1.2.0 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Add owner to the animal
 [base_country_state_translatable](base_country_state_translatable/) | 14.0.1.0.0 |  | Translate Country States
-[base_location](base_location/) | 14.0.1.2.3 |  | Enhanced zip/npa management system
-[base_location_geonames_import](base_location_geonames_import/) | 14.0.1.0.1 |  | Import zip entries from Geonames
+[base_location](base_location/) | 14.0.1.2.4 |  | Enhanced zip/npa management system
+[base_location_geonames_import](base_location_geonames_import/) | 14.0.1.0.2 |  | Import zip entries from Geonames
 [base_location_nuts](base_location_nuts/) | 14.0.1.0.1 |  | NUTS Regions
 [base_partner_sequence](base_partner_sequence/) | 14.0.1.0.1 |  | Sets customer's code from a sequence
 [partner_address_street3](partner_address_street3/) | 14.0.1.0.0 |  | Add a third address line on partners
@@ -34,17 +34,20 @@ addon | version | maintainers | summary
 [partner_company_group](partner_company_group/) | 14.0.1.0.1 |  | Adds the possibility to add a company group to a company
 [partner_company_type](partner_company_type/) | 14.0.1.0.1 |  | Adds a company type to partner that are companies
 [partner_contact_access_link](partner_contact_access_link/) | 14.0.1.0.0 | [![Yajo](https://github.com/Yajo.png?size=30px)](https://github.com/Yajo) | Allow to visit the full contact form from a company
-[partner_contact_address_default](partner_contact_address_default/) | 14.0.1.0.0 |  | Set a default delivery and invoice address for contacts
+[partner_contact_address_default](partner_contact_address_default/) | 14.0.1.0.1 |  | Set a default delivery and invoice address for contacts
 [partner_contact_age_range](partner_contact_age_range/) | 14.0.1.0.1 |  | Age Range for Contact's
 [partner_contact_birthdate](partner_contact_birthdate/) | 14.0.1.0.0 |  | Contact's birthdate
+[partner_contact_birthplace](partner_contact_birthplace/) | 14.0.1.0.0 |  | This module allows to define a birthplace for partners.
 [partner_contact_department](partner_contact_department/) | 14.0.1.0.1 |  | Assign contacts to departments
 [partner_contact_gender](partner_contact_gender/) | 14.0.1.0.1 |  | Add gender field to contacts
-[partner_contact_in_several_companies](partner_contact_in_several_companies/) | 14.0.1.1.0 |  | Allow to have one contact in several partners
+[partner_contact_in_several_companies](partner_contact_in_several_companies/) | 14.0.1.1.1 |  | Allow to have one contact in several partners
 [partner_contact_job_position](partner_contact_job_position/) | 14.0.1.0.0 |  | Categorize job positions for contacts
 [partner_contact_lang](partner_contact_lang/) | 14.0.1.0.0 |  | Manage language in contacts
 [partner_contact_nationality](partner_contact_nationality/) | 14.0.1.0.1 |  | Add nationality field to contacts
 [partner_contact_personal_information_page](partner_contact_personal_information_page/) | 14.0.1.0.0 |  | Add a page to contacts form to put personal information
 [partner_deduplicate_acl](partner_deduplicate_acl/) | 14.0.1.0.0 |  | Contact deduplication with fine-grained permission control
+[partner_deduplicate_by_ref](partner_deduplicate_by_ref/) | 14.0.1.0.0 |  | Deduplicate Contacts by reference
+[partner_deduplicate_by_website](partner_deduplicate_by_website/) | 14.0.1.0.0 |  | Deduplicate Contacts by Website
 [partner_deduplicate_filter](partner_deduplicate_filter/) | 14.0.1.0.0 |  | Exclude records from the deduplication
 [partner_disable_gravatar](partner_disable_gravatar/) | 14.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Disable automatic connection to gravatar.com
 [partner_email_check](partner_email_check/) | 14.0.1.1.1 |  | Validate email address field
@@ -54,7 +57,7 @@ addon | version | maintainers | summary
 [partner_firstname](partner_firstname/) | 14.0.1.0.1 |  | Split first name and last name for non company partners
 [partner_helper](partner_helper/) | 14.0.1.0.0 |  | Add specific helper methods
 [partner_identification](partner_identification/) | 14.0.1.3.0 |  | Partner Identification Numbers
-[partner_identification_gln](partner_identification_gln/) | 14.0.1.0.0 |  | This addon extends "Partner Identification Numbers" to provide a number category for GLN registration
+[partner_identification_gln](partner_identification_gln/) | 14.0.1.0.1 |  | This addon extends "Partner Identification Numbers" to provide a number category for GLN registration
 [partner_identification_notification](partner_identification_notification/) | 14.0.1.0.0 |  | Partner Identification Notification
 [partner_identification_unique_by_category](partner_identification_unique_by_category/) | 14.0.1.0.1 |  | Partner Identification Numbers Unique By Category
 [partner_industry_secondary](partner_industry_secondary/) | 14.0.1.0.0 |  | Add secondary partner industries
@@ -65,11 +68,12 @@ addon | version | maintainers | summary
 [partner_phone_extension](partner_phone_extension/) | 14.0.1.0.1 |  | Partner Phone Number Extension
 [partner_phone_secondary](partner_phone_secondary/) | 14.0.1.0.0 | [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) | Adds a secondary phone number on partners
 [partner_phonecall_schedule](partner_phonecall_schedule/) | 14.0.1.0.0 |  | Track the time and days your partners expect phone calls
-[partner_pricelist_search](partner_pricelist_search/) | 14.0.1.0.0 |  | Partner pricelist search
+[partner_pricelist_search](partner_pricelist_search/) | 14.0.1.0.1 |  | Partner pricelist search
 [partner_priority](partner_priority/) | 14.0.1.0.0 | [![patrickrwilson](https://github.com/patrickrwilson.png?size=30px)](https://github.com/patrickrwilson) | Adds priority to partners.
 [partner_ref_unique](partner_ref_unique/) | 14.0.1.0.0 |  | Add an unique constraint to partner ref field
 [partner_second_lastname](partner_second_lastname/) | 14.0.1.0.0 |  | Have split first and second lastnames
-[partner_tier_validation](partner_tier_validation/) | 14.0.2.0.0 |  | Support a tier validation process for Contacts
+[partner_stage](partner_stage/) | 14.0.2.0.0 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Add lifecycle Stages to Partners
+[partner_tier_validation](partner_tier_validation/) | 14.0.3.0.1 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Support a tier validation process for Contacts
 [partner_title_order](partner_title_order/) | 14.0.1.0.0 |  | Makes partner title sortable by sequence
 [partner_tz](partner_tz/) | 14.0.1.0.0 |  | Remove partner timezone default value and display on form
 [partner_vat_unique](partner_vat_unique/) | 14.0.1.0.0 |  | Module to make the VAT number unique for customers and suppliers.
