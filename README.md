@@ -1,4 +1,5 @@
-[![Runbot Status](https://runbot.odoo-community.org/runbot/badge/flat/134/14.0.svg)](https://runbot.odoo-community.org/runbot/repo/github-com-oca-partner-contact-134)
+
+[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/partner-contact&target_branch=14.0)
 [![Build Status](https://travis-ci.com/OCA/partner-contact.svg?branch=14.0)](https://travis-ci.com/OCA/partner-contact)
 [![codecov](https://codecov.io/gh/OCA/partner-contact/branch/14.0/graph/badge.svg)](https://codecov.io/gh/OCA/partner-contact)
 [![Translation Status](https://translation.odoo-community.org/widgets/partner-contact-14-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/partner-contact-14-0/?utm_source=widget)
@@ -31,7 +32,7 @@ addon | version | maintainers | summary
 [partner_affiliate](partner_affiliate/) | 14.0.1.0.1 |  | Partner Affiliates
 [partner_bank_code](partner_bank_code/) | 14.0.1.1.0 |  | Add fields information in banks
 [partner_capital](partner_capital/) | 14.0.1.0.0 |  | Partners Capital
-[partner_company_group](partner_company_group/) | 14.0.1.0.1 |  | Adds the possibility to add a company group to a company
+[partner_company_group](partner_company_group/) | 14.0.1.0.2 |  | Adds the possibility to add a company group to a company
 [partner_company_type](partner_company_type/) | 14.0.1.0.1 |  | Adds a company type to partner that are companies
 [partner_contact_access_link](partner_contact_access_link/) | 14.0.1.0.0 | [![Yajo](https://github.com/Yajo.png?size=30px)](https://github.com/Yajo) | Allow to visit the full contact form from a company
 [partner_contact_address_default](partner_contact_address_default/) | 14.0.1.0.1 |  | Set a default delivery and invoice address for contacts
@@ -72,7 +73,7 @@ addon | version | maintainers | summary
 [partner_priority](partner_priority/) | 14.0.1.0.0 | [![patrickrwilson](https://github.com/patrickrwilson.png?size=30px)](https://github.com/patrickrwilson) | Adds priority to partners.
 [partner_ref_unique](partner_ref_unique/) | 14.0.1.0.0 |  | Add an unique constraint to partner ref field
 [partner_second_lastname](partner_second_lastname/) | 14.0.1.0.0 |  | Have split first and second lastnames
-[partner_stage](partner_stage/) | 14.0.2.0.0 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Add lifecycle Stages to Partners
+[partner_stage](partner_stage/) | 14.0.2.1.1 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Add lifecycle Stages to Partners
 [partner_tier_validation](partner_tier_validation/) | 14.0.3.0.1 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Support a tier validation process for Contacts
 [partner_title_order](partner_title_order/) | 14.0.1.0.0 |  | Makes partner title sortable by sequence
 [partner_tz](partner_tz/) | 14.0.1.0.0 |  | Remove partner timezone default value and display on form
@@ -87,12 +88,11 @@ addon | version | maintainers | summary
 
 This repository is licensed under [AGPL-3.0](LICENSE).
 
-However, each module can have a totally different license, as long as they adhere to OCA
+However, each module can have a totally different license, as long as they adhere to Odoo Community Association (OCA)
 policy. Consult each module's `__manifest__.py` file, which contains a `license` key
 that explains its license.
 
 ----
-
 OCA, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit
 organization whose mission is to support the collaborative development of Odoo features
 and promote its widespread use.
