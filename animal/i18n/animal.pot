@@ -45,7 +45,6 @@ msgstr ""
 
 #. module: animal
 #: model:ir.model,name:animal.model_animal
-#: model:ir.module.category,name:animal.module_category_animal
 #: model_terms:ir.ui.view,arch_db:animal.view_animal_form
 msgid "Animal"
 msgstr ""
@@ -67,8 +66,7 @@ msgstr ""
 
 #. module: animal
 #: model:ir.actions.act_window,name:animal.action_animal
-#: model:ir.ui.menu,name:animal.menu_animal
-#: model:ir.ui.menu,name:animal.menu_root
+#: model:ir.ui.menu,name:animal.animal model:ir.ui.menu,name:animal.root
 #: model_terms:ir.ui.view,arch_db:animal.view_animal_search
 msgid "Animals"
 msgstr ""
@@ -120,7 +118,7 @@ msgstr ""
 #. module: animal
 #: model:ir.actions.act_window,name:animal.action_animal_breed
 #: model:ir.model.fields,field_description:animal.field_animal_species__breed_ids
-#: model:ir.ui.menu,name:animal.menu_breed
+#: model:ir.ui.menu,name:animal.breed
 #: model_terms:ir.ui.view,arch_db:animal.view_animal_species_form
 msgid "Breeds"
 msgstr ""
@@ -164,12 +162,12 @@ msgstr ""
 
 #. module: animal
 #: model:ir.actions.act_window,name:animal.action_animal_color
-#: model:ir.ui.menu,name:animal.menu_color
+#: model:ir.ui.menu,name:animal.color
 msgid "Colors"
 msgstr ""
 
 #. module: animal
-#: model:ir.ui.menu,name:animal.menu_config
+#: model:ir.ui.menu,name:animal.config
 msgid "Configuration"
 msgstr ""
 
@@ -426,11 +424,6 @@ msgid "Neutered"
 msgstr ""
 
 #. module: animal
-#: model:ir.model.fields,field_description:animal.field_animal__activity_calendar_event_id
-msgid "Next Activity Calendar Event"
-msgstr ""
-
-#. module: animal
 #: model:ir.model.fields,field_description:animal.field_animal__activity_date_deadline
 msgid "Next Activity Deadline"
 msgstr ""
@@ -511,7 +504,7 @@ msgid "Schnauzer"
 msgstr ""
 
 #. module: animal
-#: model:ir.ui.menu,name:animal.menu_settings
+#: model:ir.ui.menu,name:animal.settings
 msgid "Settings"
 msgstr ""
 
@@ -535,7 +528,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:animal.field_animal__species_id
 #: model:ir.model.fields,field_description:animal.field_animal_breed__species_id
 #: model:ir.model.fields,field_description:animal.field_animal_color__species_id
-#: model:ir.ui.menu,name:animal.menu_species
+#: model:ir.ui.menu,name:animal.species
 #: model_terms:ir.ui.view,arch_db:animal.view_animal_search
 #: model_terms:ir.ui.view,arch_db:animal.view_animal_species_form
 msgid "Species"
@@ -568,16 +561,6 @@ msgstr ""
 #. module: animal
 #: model:ir.model.fields,field_description:animal.field_animal__message_unread_counter
 msgid "Unread Messages Counter"
-msgstr ""
-
-#. module: animal
-#: model:ir.model.fields,field_description:animal.field_animal__website_message_ids
-msgid "Website Messages"
-msgstr ""
-
-#. module: animal
-#: model:ir.model.fields,help:animal.field_animal__website_message_ids
-msgid "Website communication history"
 msgstr ""
 
 #. module: animal

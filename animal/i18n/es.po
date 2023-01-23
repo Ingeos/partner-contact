@@ -49,7 +49,6 @@ msgstr "Icono de tipo de actividad"
 
 #. module: animal
 #: model:ir.model,name:animal.model_animal
-#: model:ir.module.category,name:animal.module_category_animal
 #: model_terms:ir.ui.view,arch_db:animal.view_animal_form
 msgid "Animal"
 msgstr "Animal"
@@ -71,9 +70,9 @@ msgstr "Especies"
 
 #. module: animal
 #: model:ir.actions.act_window,name:animal.action_animal
-#: model:ir.ui.menu,name:animal.menu_animal
-#: model:ir.ui.menu,name:animal.menu_root
+#: model:ir.ui.menu,name:animal.animal model:ir.ui.menu,name:animal.root
 #: model_terms:ir.ui.view,arch_db:animal.view_animal_search
+#: model_terms:ir.ui.view,arch_db:animal.view_animal_tree
 msgid "Animals"
 msgstr "Animales"
 
@@ -124,7 +123,8 @@ msgstr "Raza"
 #. module: animal
 #: model:ir.actions.act_window,name:animal.action_animal_breed
 #: model:ir.model.fields,field_description:animal.field_animal_species__breed_ids
-#: model:ir.ui.menu,name:animal.menu_breed
+#: model:ir.ui.menu,name:animal.breed
+#: model_terms:ir.ui.view,arch_db:animal.view_animal_breed_tree
 #: model_terms:ir.ui.view,arch_db:animal.view_animal_species_form
 msgid "Breeds"
 msgstr "Razas"
@@ -168,12 +168,12 @@ msgstr "Color"
 
 #. module: animal
 #: model:ir.actions.act_window,name:animal.action_animal_color
-#: model:ir.ui.menu,name:animal.menu_color
+#: model:ir.ui.menu,name:animal.color
 msgid "Colors"
 msgstr "Colores"
 
 #. module: animal
-#: model:ir.ui.menu,name:animal.menu_config
+#: model:ir.ui.menu,name:animal.config
 msgid "Configuration"
 msgstr "Configuración"
 
@@ -258,6 +258,11 @@ msgid "Followers"
 msgstr "Seguidores"
 
 #. module: animal
+#: model:ir.model.fields,field_description:animal.field_animal__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores (Canales)"
+
+#. module: animal
 #: model:ir.model.fields,field_description:animal.field_animal__message_partner_ids
 msgid "Followers (Partners)"
 msgstr "Seguidores (Contactos)"
@@ -297,11 +302,6 @@ msgstr "Gran Danés"
 #: model_terms:ir.ui.view,arch_db:animal.view_animal_search
 msgid "Group By"
 msgstr "Agrupar por"
-
-#. module: animal
-#: model:ir.model.fields,field_description:animal.field_animal__has_message
-msgid "Has Message"
-msgstr ""
 
 #. module: animal
 #: model:ir.model.fields.selection,name:animal.selection__animal__gender__hermaphrodite
@@ -430,11 +430,6 @@ msgid "Neutered"
 msgstr "Castrado/a"
 
 #. module: animal
-#: model:ir.model.fields,field_description:animal.field_animal__activity_calendar_event_id
-msgid "Next Activity Calendar Event"
-msgstr ""
-
-#. module: animal
 #: model:ir.model.fields,field_description:animal.field_animal__activity_date_deadline
 msgid "Next Activity Deadline"
 msgstr "Fecha límite de la próxima actividad"
@@ -515,7 +510,7 @@ msgid "Schnauzer"
 msgstr "Schnauzer"
 
 #. module: animal
-#: model:ir.ui.menu,name:animal.menu_settings
+#: model:ir.ui.menu,name:animal.settings
 msgid "Settings"
 msgstr "Ajustes"
 
@@ -539,9 +534,10 @@ msgstr "Tamaño"
 #: model:ir.model.fields,field_description:animal.field_animal__species_id
 #: model:ir.model.fields,field_description:animal.field_animal_breed__species_id
 #: model:ir.model.fields,field_description:animal.field_animal_color__species_id
-#: model:ir.ui.menu,name:animal.menu_species
+#: model:ir.ui.menu,name:animal.species
 #: model_terms:ir.ui.view,arch_db:animal.view_animal_search
 #: model_terms:ir.ui.view,arch_db:animal.view_animal_species_form
+#: model_terms:ir.ui.view,arch_db:animal.view_animal_species_tree
 msgid "Species"
 msgstr "Especies"
 
@@ -598,11 +594,10 @@ msgstr "Peso (en kg)"
 msgid "Yorkshire Terrier"
 msgstr "Yorkshire Terrier"
 
-#~ msgid "Followers (Channels)"
-#~ msgstr "Seguidores (Canales)"
-
-#~ msgid "colors"
-#~ msgstr "colores"
+#. module: animal
+#: model_terms:ir.ui.view,arch_db:animal.view_animal_color_tree
+msgid "colors"
+msgstr "colores"
 
 #~ msgid "Create an animal."
 #~ msgstr "Crear un animal."
